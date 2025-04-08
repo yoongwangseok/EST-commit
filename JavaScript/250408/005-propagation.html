@@ -20,7 +20,7 @@
       const $parent = document.getElementById("parent");
       const $clickBtn = document.getElementById("click-btn");
 
-      // stopPropargation: 이벤트의 전파를 중단, 이벤트의 흐름을 멈춘다.
+      // stopPropagation: 이벤트의 전파를 중단, 이벤트의 흐름을 멈춘다.
       $parent.addEventListener("click", (e) => {
         e.stopImmediatePropagation();
         console.log("parent가 클릭되었습니다");
